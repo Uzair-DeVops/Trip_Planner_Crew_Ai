@@ -1,8 +1,6 @@
 import os
 from crewai import Agent
 from textwrap import dedent
-from langchain_google_genai import ChatGoogleGenerativeAI
-from litellm import completion
 from tools.search_tools import SearchTools
 from tools.calculator_tools import CalculatorTools
 from crewai import LLM
